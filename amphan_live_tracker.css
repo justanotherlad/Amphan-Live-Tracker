@@ -1,6 +1,6 @@
 
 h1{
-	font-family:"Cambria,Lucida Bright,GaramondPerpetua";
+	font-family:Cambria,Lucida Bright,GaramondPerpetua;
 	color: #581845  ;
 	font-weight: bold;
 
@@ -9,5 +9,17 @@ h1{
 body{
 	text-align: center;
 	background-color:  #FFC300;
+}
+
+ul{
+	display: table;
+    margin: 0 auto;
+    text-align: left;
+    font-family: Helvetica;
+    color:  #33312c ;
+    font-weight:bold;
+    line-height:30px;
+
+	
 }
 
