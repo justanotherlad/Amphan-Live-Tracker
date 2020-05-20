@@ -3,6 +3,8 @@ h1{
 	font-family:Cambria,Lucida Bright,GaramondPerpetua;
 	color: #581845  ;
 	font-weight: bold;
+	text-decoration: underline;
+	text-shadow: 10px 10px 10px gray;
 
 }
 
@@ -19,7 +21,19 @@ ul{
     color:  #33312c ;
     font-weight:bold;
     line-height:30px;
+}
 
-	
+.image{
+	border:5px solid  #1d1445;
+}
+
+.map{
+	margin:0 auto;
+	display:table;
+	text-align:left;
+	color:#095f6a;
+	text-shadow: 5px 5px 5px gray;
+	font-weight:bold;
+
 }
 
