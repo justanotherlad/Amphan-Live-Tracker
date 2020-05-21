@@ -1,16 +1,16 @@
 
-h1{
+h2{
 	font-family:Cambria,Lucida Bright,GaramondPerpetua;
 	color: #581845  ;
 	font-weight: bold;
-	text-decoration: underline;
+	text-decoration: none;
 	text-shadow: 10px 10px 10px gray;
 
 }
 
 body{
-	text-align: center;
-	background-color:  #FFC300;
+	
+	background-color: #FFC300;
 }
 
 ul{
@@ -21,6 +21,17 @@ ul{
     color:  #33312c ;
     font-weight:bold;
     line-height:30px;
+}
+
+a{
+
+         text-align: left !important;
+         margin-left:20px;
+
+}
+
+footer{
+        text-align:center;
 }
 
 .image{
@@ -37,3 +48,93 @@ ul{
 
 }
 
+* {
+  box-sizing: border-box;
+}
+
+body { 
+  background:#FFC300;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:18px;
+  line-height:1.5;
+}
+
+.box {
+  background:#fff;
+  box-shadow:0 1px 0 rgba(0,0,0,.2);
+  margin:2em auto;
+  padding:1em;
+  position:relative;
+  width:33%;
+}
+/* lil box*/
+
+.card .card__corner {
+position: absolute;
+top: 0;
+right: 0;
+width: 2em;
+height: 2em;
+background-color: #e6e7e8;
+}
+
+.card .card__corner .card__corner-triangle {
+position: absolute;
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 2em 2em 0;
+border-color: transparent #FFC300 transparent transparent;
+}
+
+h2 {
+  box-shadow:0 1px 0 rgba(0,0,0,.2);
+  font-size:3em;
+  font-weight:200;
+  word-break: break-word;
+  margin:0;
+  padding:0;
+  text-align:center;
+}
+
+p {
+  color:#666;
+  font-weight:200;
+  text-align:center;
+}
+
+
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+
+img { max-width: 100%; }
+.video-container {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+}
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+html { font-size:100%; }
+
+@media (min-width: 640px) { body {font-size:1rem;} } 
+@media (min-width:960px) { body {font-size:1.2rem;} } 
+@media (min-width:1100px) { body {font-size:1.5rem;} }
