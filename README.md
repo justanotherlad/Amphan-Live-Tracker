@@ -16,4 +16,4 @@ Realtime Amphan Tracker:
               https://en.wikipedia.org/wiki/Cyclone_Amphan
               https://mumbaimirror.indiatimes.com/news/india/cyclone-amphan-15-killed-in-five-districts-of-west-bengal/articleshow/75864873.cms
   
-  > Collaborators: Nilargha Roy and Swastik Banerjee
+  > Contributors: Nilargha Roy and Swastik Banerjee
