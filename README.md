@@ -10,7 +10,7 @@ Realtime Amphan Tracker:
 4. Also embedded <iframe> from windy.com
 5. Redirect to Donate for West Bengal site.
   
-  Link: http://amphan.c1.biz/
+  Link: https://justanotherlad.github.io/Amphan-Live-Tracker/
   
   References: http://www.rsmcnewdelhi.imd.gov.in/index.php?lang=en
               https://en.wikipedia.org/wiki/Cyclone_Amphan
